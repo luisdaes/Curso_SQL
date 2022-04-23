@@ -1,0 +1,12 @@
+AVG    :calcula promedio de un campo
+COUNT  :cuenta los registro de un campo
+SUM    :suma valores de un campo
+MAX    :devuelve el maximo de un campo
+MIN    :devuelve el minimo de un campo
+
+
+1) SELECT dirección, teléfono, población as Residencia FROM clientes order by población DESC
+2) SELECT POBLACIÓN FROM clientes GROUP by POBLACIÓN
+3) SELECT sección, sum(precio) as suma_p_seccion FROM productos GROUP by Sección
+4) SELECT SECCIÓN, sum(PRECIO) AS suma_p_precio FROM productos WHERE SECCIÓN<>'juguetería' GROUP by SECCIÓN
+59 SELECT COUNT(CÓDIGOARTÍCULO) FROM productos WHERE SECCIÓN='deportes' GROUP by SECCIÓN

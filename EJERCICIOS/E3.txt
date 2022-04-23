@@ -1,0 +1,14 @@
+EJERCICIOS EN PRACTICA: 
+
+E3:
+1) select empresa, población from clientes
+
+2) select * from productos where SECCIÓN = 'cerámica'
+
+3) select NOMBREARTÍCULO, precio from productos where sección = 'deportes' and precio between 100 and 200
+
+4) select * from productos where PAÍSDEORIGEN <> 'españa'
+
+5) select * from productos where (seccíon = 'deportes' and paisdeorigen = 'españa') or precio > 350
+
+6) select NOMBREARTÍCULO, SECCIÓN, fecha from productos where fecha between '2001-05-01' and '2001-12-15'

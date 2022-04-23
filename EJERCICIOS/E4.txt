@@ -1,0 +1,4 @@
+
+1) select * from productos where PAÍSDEORIGEN='españa' and FECHA BETWEEN '2002-02-01' and '2002-05-31' ORDER by NOMBREARTÍCULO DESC
+2) SELECT EMPRESA, DIRECCIÓN, POBLACIÓN from clientes ORDER by POBLACIÓN, DIRECCIÓN DESC
+3) SELECT * from clientes ORDER by POBLACIÓN ASC

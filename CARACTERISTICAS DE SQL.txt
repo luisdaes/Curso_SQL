@@ -1,0 +1,34 @@
+tipos de comandos en SQL
+
+DDL:DATA DEFINITION LANGUAJE
+-create
+-alter
+-drop
+-truncate
+
+DML:DATA MANIPULATION LANGUAJE
+-select
+-insert
+-update
+-delete
+
+DCL:DATA CONTROL LANGUAJE
+-grant
+-revoke
+
+TCL: TRANSANCTION CONTROL LANGUAJE
+-commit
+-rollback
+-savepoint
+
+CLAUSURA:
+-from
+-where
+-group by
+-having
+-order by
+
+ESTRUCTURA DE UNA INTRUCCIÓN SQL:
+
+COMANDO + CLAUSURAS + OPERADORES + FUNCIONES
+

@@ -1,0 +1,25 @@
+Usando la base de datos: curso_SQL
+
+consultas realizadas y probadas en clase:
+
+SELECT * FROM productos where fecha BETWEEN '2000-03-01' and '2000-04-30'
+SELECT * FROM productos where fecha >= '2000-03-01' and fecha <= '2000-04-30'
+SELECT * from productos WHERE SECCIÓN='deportes' OR SECCIÓN='ceràmica' order by SECCIÓN desc, PRECIO asc
+
+video 5: ejercicicos de ejemplo
+
+SELECT sección, sum(precio) from productos group by sección
+SELECT sección, sum(precio) as suma_articulos from productos group by sección ORDER by  suma_articulosSELECT sección, 
+                avg(precio) as media_articulos from productos group by sección 
+      		having SECCIÓN='deportes' or SECCIÓN='confección' ORDER by media_articulos
+
+SELECT población, COUNT(códigocliente) as n_clientes from clientes GROUP by población
+
+video 6: ejercicios
+SELECT NOMBREARTÍCULO, SECCIÓN, PRECIO, round(PRECIO*1.21, 2) as mas_IVA FROM productos
+
+
+
+
+
+
