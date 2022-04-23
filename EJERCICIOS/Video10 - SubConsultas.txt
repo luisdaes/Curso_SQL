@@ -1,0 +1,12 @@
+Comparamos con el select principal
+
+Subconsulta escalonada
+Subconsultas de lista
+Subconsultas correlacionada
+
+Ejemplos
+subconsultas escalonada
+-SELECT avg(Precio) from productos
+-SELECT NOMBREARTÍCULO, SECCIÓN from productos WHERE PRECIO > (SELECT avg(precio) from productos)
+-SELECT * FROM productos WHERE PRECIO > any (SELECT PRECIO FROM productos WHERE SECCIÓN='cerámica')
+-SELECT * FROM productos WHERE PRECIO > all (SELECT precio FROM productos WHERE SECCIÓN='jugueteria')

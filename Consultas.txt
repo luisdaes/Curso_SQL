@@ -18,6 +18,16 @@ SELECT población, COUNT(códigocliente) as n_clientes from clientes GROUP by po
 video 6: ejercicios
 SELECT NOMBREARTÍCULO, SECCIÓN, PRECIO, round(PRECIO*1.21, 2) as mas_IVA FROM productos
 
+video 8: ejercicios
+SELECT pedidos.CÓDIGOCLIENTE, población , dirección, NUMERODEPEDIDO, pedidos.CÓDIGOCLIENTE, FORMADEPAGO 
+	FROM clientes INNER JOIN pedidos ON clientes.CÓDIGOCLIENTE=pedidos.CÓDIGOCLIENTE 
+		where población='madrid'
+
+SELECT pedidos.CÓDIGOCLIENTE, población , dirección, NUMERODEPEDIDO, pedidos.CÓDIGOCLIENTE, FORMADEPAGO 
+	FROM clientes LEFT JOIN pedidos ON clientes.CÓDIGOCLIENTE=pedidos.CÓDIGOCLIENTE 
+		where población='madrid' 
+			AND pedidos.CÓDIGOCLIENTE is null
+
 
 
 

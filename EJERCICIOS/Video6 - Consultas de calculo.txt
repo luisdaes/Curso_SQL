@@ -1,0 +1,10 @@
+NOW()         :fecha actual
+DATEDIFF()    :Diferencia de fechas (fecha1, fecha2)
+DATE_FORMAT() :Formato de fecha('%D-%M')
+CONCAT()      :Concatenar
+ROUND()       :
+TRUNCATE()    :
+
+1) 
+2) 
+3) 

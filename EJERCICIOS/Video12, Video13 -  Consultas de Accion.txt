@@ -1,0 +1,14 @@
+Actualizacion, Creacion, Eliminacion, datos anexados
+
+Comandos DML Y DDL
+
+CREATE      :
+UPDATE      :
+DELETE      :
+INSERT INTO :
+SELECT INTO :
+
+ejemplos:
+-UPDATE productos SET SECCIÓN='DEPORTIVOS' WHERE SECCIÓN='deportes'
+-CREATE TABLE clientes_madrid SELECT * FROM clientes WHERE población='madrid' (MySQL) en ACCES (select * into)
+-DELETE from productos WHERE Sección = 'deportes' and precio between 50 and 100

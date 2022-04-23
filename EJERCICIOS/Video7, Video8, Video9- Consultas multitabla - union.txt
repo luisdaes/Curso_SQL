@@ -1,0 +1,16 @@
+Union Externas
+
+UNION     :Muestra la union de 2 tablas sin repetir valores
+UNION ALL :Muestra la union de 2 tablas aun con datos repetidos
+EXCEPT    :
+INTERSECT :
+MINUS     :
+
+Union interna
+
+INNER JOIN :Refleja infomacion comun en ambas tablas
+LEFT JOIN  :Devuelve los registro de la primera tabla y ambas tablas
+RIGHT JOIN :Devuelve los registro de la segunda tabla y ambas tablas
+
+
+Ejemplo: SELECT pedidos.CÓDIGOCLIENTE, población , dirección, NUMERODEPEDIDO, pedidos.CÓDIGOCLIENTE, FORMADEPAGO FROM clientes LEFT JOIN pedidos ON clientes.CÓDIGOCLIENTE=pedidos.CÓDIGOCLIENTE where población='madrid' and pedidos.CÓDIGOCLIENTE is null
